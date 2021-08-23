@@ -1,0 +1,11 @@
+User-agent: *
+Allow:/
+
+Allow:/es/categoria/
+Allow:/es/gramatica/
+Allow:/es/dialectos/
+Allow:/es/vocabulario/
+Allow:/es/diccionario/
+Allow:/es/glosario/
+
+Sitemap: https://www.aprendamosquiche.com/sitemap.xml
