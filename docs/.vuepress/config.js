@@ -12,85 +12,110 @@ module.exports = {
     ],
   ],
   locales: {
-    "https://kiche.netlify.app/home/lang/mayas/": {
+    "https://kiche.netlify.app/home/lang/all_lang/": {
       lang: "Todos los Idiomas Disponibles",
       // title: "jw2",
-      // description: "El mejor lugar para Aprender todos los Idiomas Mayas, Xinca y Garifuna",
+      // description: "El mejor lugar para Aprender todos los Idiomas gt, Xinca y Garifuna",
     },
     "/": {  
+      lang: "Pipil", // this will be set as the lang attribute on <html>
+      title: "Pipil",
+      description: "El mejor lugar para Aprender Pipil gratis",
+    },
+    "/gt/mop/": {  
       lang: "Mopán", // this will be set as the lang attribute on <html>
       title: "Mopán",
       description: "El mejor lugar para Aprender Mopán gratis",
     },
-    "/mayas/mocho/": {  
-      lang: "Mochó", // this will be set as the lang attribute on <html>
-      title: "Mochó",
-      description: "El mejor lugar para Aprender Mochó gratis",
-    },
-    "/mayas/popti/": {  
-      lang: "Jakalteko - Popti", // this will be set as the lang attribute on <html>
-      title: "Jakalteko - Popti",
-      description: "El mejor lugar para Aprender Jakalteko - Popti gratis",
-    },
-    "/mayas/poqomam/": {  
-      lang: "Poqomam", // this will be set as the lang attribute on <html>
-      title: "Poqomam",
-      description: "El mejor lugar para Aprender Poqomam gratis",
-    },
-    "/mayas/poqomchi/": {  
-      lang: "poqomchi", // this will be set as the lang attribute on <html>
-      title: "poqomchi",
-      description: "El mejor lugar para Aprender poqomchi gratis",
-    },
-    "/mayas/qanjobal/": {  
-      lang: "Q'anjob'al", // this will be set as the lang attribute on <html>
-      title: "Q'anjob'al",
-      description: "El mejor lugar para Aprender Q'anjob'al gratis",
-    },
-    "/mayas/qeqchi/": {  
-      lang: "Qeqchi", // this will be set as the lang attribute on <html>
-      title: "Qeqchi",
-      description: "El mejor lugar para Aprender Qeqchi gratis",
-    },
-    "/mayas/sakapulteko/": {  
-      lang: "Sakapulteko", // this will be set as the lang attribute on <html>
-      title: "Sakapulteko",
-      description: "El mejor lugar para Aprender Sakapulteko gratis",
-    },
-    "/mayas/sipakapense/": {  
+    "/gt/qum/": {  
       lang: "Sipakapense", // this will be set as the lang attribute on <html>
       title: "Sipakapense",
       description: "El mejor lugar para Aprender Sipakapense gratis",
     },
-    "/mayas/tektiteko/": {  
+    "/gt/quv/": {  
+      lang: "Sakapulteko", // this will be set as the lang attribute on <html>
+      title: "Sakapulteko",
+      description: "El mejor lugar para Aprender Sakapulteko gratis",
+    },
+    "/gt/ttc/": {  
       lang: "Tektiteko", // this will be set as the lang attribute on <html>
       title: "Tektiteko",
       description: "El mejor lugar para Aprender Tektiteko gratis",
     },
-    "/mayas/tojolabal/": {  
-      lang: "Tojolabal", // this will be set as the lang attribute on <html>
-      title: "Tojolabal",
-      description: "El mejor lugar para Aprender Tojolabal gratis",
-    },
-    "/mayas/tzetzal/": {  
-      lang: "Tzetzal", // this will be set as the lang attribute on <html>
-      title: "Tzetzal",
-      description: "El mejor lugar para Aprender Tzetzal gratis",
-    },
-    "/mayas/tzotzil/": {  
-      lang: "Tzotzil", // this will be set as the lang attribute on <html>
-      title: "tzTzotzilotzil",
-      description: "El mejor lugar para Aprender Tzotzil gratis",
-    },
-    "/mayas/tzutujil/": {  
+    "/gt/tzj/": {  
       lang: "Tzutujil", // this will be set as the lang attribute on <html>
       title: "Tzutujil",
       description: "El mejor lugar para Aprender Tzutujil gratis",
     },
-    "/mayas/uspanteko/": {  
+    "/gt/usp/": {  
       lang: "Uspanteko", // this will be set as the lang attribute on <html>
       title: "Uspanteko",
       description: "El mejor lugar para Aprender Uspanteko gratis",
+    },
+    "/cr/bocota/": {  
+      lang: "Bocotá", // this will be set as the lang attribute on <html>
+      title: "Bocotá",
+      description: "El mejor lugar para Aprender Bocotá gratis",
+    },
+    "/cr/bribri/": {  
+      lang: "Bribri", // this will be set as the lang attribute on <html>
+      title: "Bribri",
+      description: "El mejor lugar para Aprender Bribri gratis",
+    },
+    "/cr/cabecar/": {  
+      lang: "Cabecar", // this will be set as the lang attribute on <html>
+      title: "Cabecar",
+      description: "El mejor lugar para Aprender Cabecar gratis",
+    },
+    "/cr/guaymi/": {  
+      lang: "Guaymi", // this will be set as the lang attribute on <html>
+      title: "Guaymi",
+      description: "El mejor lugar para Aprender Guaymi gratis",
+    },
+    "/cr/malecu/": {  
+      lang: "Malecu", // this will be set as the lang attribute on <html>
+      title: "Malecu",
+      description: "El mejor lugar para Aprender Malecu gratis",
+    },
+    "/hn/lenca/": {  
+      lang: "Lenca", // this will be set as the lang attribute on <html>
+      title: "Lenca",
+      description: "El mejor lugar para Aprender Lenca gratis",
+    },
+    "/hn/misquito/": {  
+      lang: "Misquito", // this will be set as the lang attribute on <html>
+      title: "Misquito",
+      description: "El mejor lugar para Aprender Misquito gratis",
+    },
+    "/hn/pechi/": {  
+      lang: "Pech", // this will be set as the lang attribute on <html>
+      title: "Pech",
+      description: "El mejor lugar para Aprender Pech gratis",
+    },
+    "/hn/tawhaka/": {  
+      lang: "Tawhaka", // this will be set as the lang attribute on <html>
+      title: "Tawhaka",
+      description: "El mejor lugar para Aprender Tawhaka gratis",
+    },
+    "/hn/tol/": {  
+      lang: "Tol", // this will be set as the lang attribute on <html>
+      title: "Tol",
+      description: "El mejor lugar para Aprender Tol gratis",
+    },
+    "/ni/mayangna/": {  
+      lang: "Mayangna", // this will be set as the lang attribute on <html>
+      title: "Mayangna",
+      description: "El mejor lugar para Aprender Mayangna gratis",
+    },
+    "/ni/rama/": {  
+      lang: "Rama", // this will be set as the lang attribute on <html>
+      title: "Rama",
+      description: "El mejor lugar para Aprender Rama gratis",
+    },
+    "/ni/ulwa/": {  
+      lang: "Ulwa", // this will be set as the lang attribute on <html>
+      title: "Ulwa",
+      description: "El mejor lugar para Aprender Ulwa gratis",
     },
   },
 
@@ -128,200 +153,265 @@ module.exports = {
   themeConfig: {
     locales: {     
       "/": {
+        label: "Pipil",
+        selectText: "Pipil",
+        nav: require("./nav/pipil"),
+        sidebar: {
+          "/pipil": [
+            /* ... */
+          ],
+          "/pipil/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/gt/mop/": {
         label: "Mopán",
         selectText: "Mopán",
-        nav: require("./nav/mopan"),
+        nav: require("./nav/mop"),
         sidebar: {
-          "/mopan": [
+          "/gt/mop": [
             /* ... */
           ],
-          "/mopan/guide/": [
+          "/gt/mop/guide/": [
             /* ... */
           ],
         },
       },  
-      "/mayas/mocho/": {
-        label: "Mochó",
-        selectText: "Mochó",
-        nav: require("./nav/mocho"),
-        sidebar: {
-          "/mayas/mocho": [
-            /* ... */
-          ],
-          "/mayas/mocho/guide/": [
-            /* ... */
-          ],
-        },
-      },
-      "/mayas/popti/": {
-        label: "Jakalteko - Popti",
-        selectText: "Jakalteko - Popti",
-        nav: require("./nav/popti"),
-        sidebar: {
-          "/mayas/popti": [
-            /* ... */
-          ],
-          "/mayas/popti/guide/": [
-            /* ... */
-          ],
-        },
-      },
-      "/mayas/poqomam/": {
-        label: "Poqomam",
-        selectText: "Poqomam",
-        nav: require("./nav/poqomam"),
-        sidebar: {
-          "/mayas/poqomam": [
-            /* ... */
-          ],
-          "/mayas/poqomam/guide/": [
-            /* ... */
-          ],
-        },
-      },
-      "/mayas/poqomchi/": {
-        label: "Poqomchi",
-        selectText: "Poqomchi",
-        nav: require("./nav/poqomchi"),
-        sidebar: {
-          "/mayas/poqomchi": [
-            /* ... */
-          ],
-          "/mayas/poqomchi/guide/": [
-            /* ... */
-          ],
-        },
-      },
-      "/mayas/qanjobal/": {
-        label: "Qanjobal",
-        selectText: "Qanjobal",
-        nav: require("./nav/qanjobal"),
-        sidebar: {
-          "/mayas/qanjobal": [
-            /* ... */
-          ],
-          "/mayas/qanjobal/guide/": [
-            /* ... */
-          ],
-        },
-      },
-      "/mayas/qeqchi/": {
-        label: "Qeqchi",
-        selectText: "Qeqchi",
-        nav: require("./nav/qeqchi"),
-        sidebar: {
-          "/mayas/qeqchi": [
-            /* ... */
-          ],
-          "/mayas/qeqchi/guide/": [
-            /* ... */
-          ],
-        },
-      },
-      "/mayas/sakapulteko/": {
-        label: "Sakapulteko",
-        selectText: "Sakapulteko",
-        nav: require("./nav/sakapulteko"),
-        sidebar: {
-          "/mayas/sakapulteko": [
-            /* ... */
-          ],
-          "/mayas/sakapulteko/guide/": [
-            /* ... */
-          ],
-        },
-      },
-      "/mayas/sipakapense/": {
+      "/gt/qum/": {
         label: "Sipakapense",
         selectText: "Sipakapense",
-        nav: require("./nav/sipakapense"),
+        nav: require("./nav/qum"),
         sidebar: {
-          "/mayas/sipakapense": [
+          "/gt/qum": [
             /* ... */
           ],
-          "/mayas/sipakapense/guide/": [
+          "/gt/qum/guide/": [
             /* ... */
           ],
         },
       },
-      "/mayas/tektiteko/": {
+      "/gt/quv/": {
+        label: "Sakapulteko",
+        selectText: "Sakapulteko",
+        nav: require("./nav/quv"),
+        sidebar: {
+          "/gt/quv": [
+            /* ... */
+          ],
+          "/gt/quv/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/gt/ttc/": {
         label: "Tektiteko",
         selectText: "Tektiteko",
-        nav: require("./nav/tektiteko"),
+        nav: require("./nav/ttc"),
         sidebar: {
-          "/mayas/tektiteko": [
+          "/gt/ttc": [
             /* ... */
           ],
-          "/mayas/tektiteko/guide/": [
-            /* ... */
-          ],
-        },
-      "/mayas/tojolabal/": {
-        label: "Tojolabal",
-        selectText: "Tojolabal",
-        nav: require("./nav/tojolabal"),
-        sidebar: {
-          "/mayas/tojolabal": [
-            /* ... */
-          ],
-          "/mayas/tojolabal/guide/": [
+          "/gt/ttc/guide/": [
             /* ... */
           ],
         },
       },
-      "/mayas/tzetzal/": {
-        label: "Tzetzal",
-        selectText: "Tzetzal",
-        nav: require("./nav/tzetzal"),
-        sidebar: {
-          "/mayas/tzetzal": [
-            /* ... */
-          ],
-          "/mayas/tzetzal/guide/": [
-            /* ... */
-          ],
-        },
-      },
-      "/mayas/tzotzil/": {
-        label: "Tzotzil",
-        selectText: "Tzotzil",
-        nav: require("./nav/tzotzil"),
-        sidebar: {
-          "/mayas/tzotzil": [
-            /* ... */
-          ],
-          "/mayas/tzotzil/guide/": [
-            /* ... */
-          ],
-        },
-      },
-      "/mayas/tzutujil/": {
+      "/gt/tzj/": {
         label: "Tzutujil",
         selectText: "Tzutujil",
-        nav: require("./nav/tzutujil"),
+        nav: require("./nav/tzj"),
         sidebar: {
-          "/mayas/tzutujil": [
+          "/gt/tzj": [
             /* ... */
           ],
-          "/mayas/tzutujil/guide/": [
+          "/gt/tzj/guide/": [
             /* ... */
           ],
         },
       },  
-      "/mayas/uspanteko/": {
+      "/gt/usp/": {
         label: "Uspanteko",
         selectText: "Uspanteko",
-        nav: require("./nav/uspanteko"),
+        nav: require("./nav/usp"),
         sidebar: {
-          "/mayas/uspanteko": [
+          "/gt/usp": [
             /* ... */
           ],
-          "/mayas/uspanteko/guide/": [
+          "/gt/usp/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/cr/bocota/": {
+        label: "Bocotá",
+        selectText: "Bocotá",
+        nav: require("./nav/bocota"),
+        sidebar: {
+          "/cr/bocota": [
+            /* ... */
+          ],
+          "/cr/bocota/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/cr/bribri/": {
+        label: "Bribri",
+        selectText: "Bribri",
+        nav: require("./nav/bribri"),
+        sidebar: {
+          "/cr/bribri": [
+            /* ... */
+          ],
+          "/cr/bribri/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/cr/cabecar/": {
+        label: "Cabecar",
+        selectText: "Cabecar",
+        nav: require("./nav/cabecar"),
+        sidebar: {
+          "/cr/cabecar": [
+            /* ... */
+          ],
+          "/cr/cabecar/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/cr/guaymi/": {
+        label: "Guaymi",
+        selectText: "Guaymi",
+        nav: require("./nav/guaymi"),
+        sidebar: {
+          "/cr/guaymi": [
+            /* ... */
+          ],
+          "/cr/guaymi/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/cr/malecu/": {
+        label: "Malecu",
+        selectText: "Malecu",
+        nav: require("./nav/malecu"),
+        sidebar: {
+          "/cr/malecu": [
+            /* ... */
+          ],
+          "/cr/malecu/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/hn/lenca/": {
+        label: "Lenca",
+        selectText: "Lenca",
+        nav: require("./nav/lenca"),
+        sidebar: {
+          "/hn/lenca": [
+            /* ... */
+          ],
+          "/hn/lenca/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/hn/misquito/": {
+        label: "Misquito",
+        selectText: "Misquito",
+        nav: require("./nav/misquito"),
+        sidebar: {
+          "/hn/misquito": [
+            /* ... */
+          ],
+          "/hn/misquito/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/hn/pechi/": {
+        label: "Pech",
+        selectText: "Pech",
+        nav: require("./nav/pechi"),
+        sidebar: {
+          "/hn/pechi": [
+            /* ... */
+          ],
+          "/hn/pechi/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/hn/tawhaka/": {
+        label: "Tawhaka",
+        selectText: "Tawhaka",
+        nav: require("./nav/tawhaka"),
+        sidebar: {
+          "/hn/tawhaka": [
+            /* ... */
+          ],
+          "/hn/tawhaka/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/hn/tol/": {
+        label: "Tol",
+        selectText: "Tol",
+        nav: require("./nav/tol"),
+        sidebar: {
+          "/hn/tol": [
+            /* ...*/
+          ],
+          "/hn/tol/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/ni/mayangna/": {
+        label: "Mayangna",
+        selectText: "Mayangna",
+        nav: require("./nav/mayangna"),
+        sidebar: {
+          "/ni/mayangna": [
+            /* ... */
+          ],
+          "/ni/mayangna/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/ni/rama/": {
+        label: "Rama",
+        selectText: "Rama",
+        nav: require("./nav/rama"),
+        sidebar: {
+          "/ni/rama": [
+            /* ... */
+          ],
+          "/ni/rama/guide/": [
+            /* ... */
+          ],
+        },
+      },
+      "/ni/ulwa/": {
+        label: "Ulwa",
+        selectText: "Ulwa",
+        nav: require("./nav/ulwa"),
+        sidebar: {
+          "/ni/ulwa": [
+            /* ... */
+          ],
+          "/ni/ulwa/guide/": [
             /* ... */
           ],
         },
       },
     },
   },
-}
 }
