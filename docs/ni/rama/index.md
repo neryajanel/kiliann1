@@ -3,7 +3,7 @@ home: true
 # heroImage: /hero.png
 actionText: Empezar →
 # actionLink: /ni/Rama/courses/basic/
-footer: kiliann.com © 2021 
+footer: homelang.co © 2022  
 ---
 
 <div class="features">

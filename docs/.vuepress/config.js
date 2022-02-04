@@ -12,7 +12,7 @@ module.exports = {
     ],
   ],
   locales: {
-    "https://kiche.netlify.app/home/lang/all_lang/": {
+    "https://homelang.co/home/lang/all_lang/": {
       lang: "Todos los Idiomas Disponibles",
       // title: "jw2",
       // description: "El mejor lugar para Aprender todos los Idiomas gt, Xinca y Garifuna",
